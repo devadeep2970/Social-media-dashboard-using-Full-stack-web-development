@@ -1,0 +1,29 @@
+social-media-dashboard/
+│
+├── backend/
+│   ├── src/main/java/com/example/socialmediadashboard/
+│   │   ├── SocialMediaDashboardApplication.java
+│   │   ├── controller/
+│   │   │   ├── PostController.java
+│   │   ├── model/
+│   │   │   ├── Post.java
+│   │   ├── repository/
+│   │   │   ├── PostRepository.java
+│   │   └── service/
+│   │       ├── PostService.java
+│   ├── src/main/resources/
+│   │   ├── application.properties
+│   └── pom.xml
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── components/
+│   │   │   ├── PostList.js
+│   │   │   ├── CreatePost.js
+│   ├── package.json
+│   └── .env
+│
+├── README.md
+└── .gitignore
